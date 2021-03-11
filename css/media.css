@@ -1,0 +1,444 @@
+/* iPads (вертикальная и горизонтальная) ----------- */
+@media screen and (max-width: 1366px) {
+
+    /* Первый блок  */
+
+    .block1__nav li {
+        font-size: 1.25rem;
+    }
+
+    .block1__banner {
+        margin: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .block1__photo {
+
+        padding-top: 3.1rem;
+    }
+
+    .block1__button {
+        padding-bottom: 2rem;
+        margin: auto;
+    }
+
+    /* Второй блок Услуги */
+
+    .block2__container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+    }
+
+    .block2__card1 {
+        width: 15rem;
+        height: 15rem;
+        background: #5BBCAE;
+        border-radius: 1.5rem;
+
+    }
+
+    .block2__card2 {
+        width: 15rem;
+        height: 15rem;
+        background: #5BBCAE;
+        border-radius: 1.5rem;
+
+    }
+
+    .block2__card3 {
+        width: 15rem;
+        height: 15rem;
+        background: #5BBCAE;
+        border-radius: 1.5rem;
+
+    }
+
+    h3 {
+        font-size: 1.3rem;
+
+        line-height: 2rem;
+
+    }
+
+    .block2__card1-h3 {
+        padding-top: 6rem;
+
+    }
+
+    .block2__card2-h3 {
+        padding-top: 6rem;
+
+    }
+
+    .block2__card3-h3 {
+        padding-top: 6rem;
+
+    }
+
+    /* Третий блок Мои преимущества */
+
+    .block3__advantages {
+        /* max-width: 60rem; */
+        margin: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .block3__container {
+        /* max-width: 60rem; */
+        margin: auto;
+    }
+
+    .block3__container-photos {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+    }
+
+    .block3__container-text {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        text-align: left;
+
+    }
+
+    .block3__picture {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .block3__picture-text {
+        font-size: 1.65rem;
+    }
+
+    /* Четвертый блок Обо мне */
+
+    .block4__container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+    }
+
+    .block4__biografiya {
+
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.2rem;
+    }
+
+    .block6__input {
+        width: 20rem;
+    }
+
+    /* Блок Футтер */
+
+    .block-footer__container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+    }
+}
+
+
+/* iPads (вертикальная и горизонтальная)  */
+@media screen and (max-width: 1024px) {
+
+    /* Первый блок  */
+
+    .block1__container {
+        margin: auto;
+    }
+
+    .block1__nav li+li {
+        padding-left: 1rem;
+    }
+
+
+
+
+    /* Третий блок Мои преимущества */
+
+
+
+    .block3__container-photos {
+        margin: auto;
+    }
+
+    .block3__picture {
+        margin: auto;
+    }
+
+    /* Четвертый блок Обо мне */
+
+    .block4__container {
+        margin: auto;
+    }
+
+    .block4__button-style {
+        width: 24rem;
+    }
+
+    /* Блок Футтер */
+
+    .block-footer__container {
+        margin: auto;
+    }
+
+}
+
+/* Iphone X ----------- */
+@media screen and (max-width: 675px) {
+
+    html {
+
+        font-size: 2.65vw;
+    }
+
+    /* Первый блок   */
+
+    .block1__container {
+
+        margin: auto;
+    }
+
+    .block1__banner {
+        margin: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .block1__banner {
+
+        flex-direction: column-reverse;
+    }
+
+
+    .block1__topic {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .block1__photo {
+        padding-top: 1rem;
+    }
+
+    .block1__topic {
+
+        margin-top: 2rem;
+
+    }
+
+    .block1__h1 {
+
+        padding-top: 2rem;
+    }
+
+    .block1__phone {
+        padding-top: 2rem;
+    }
+
+    .block1__qualification {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .menu__burger {
+        padding-left: 3rem;
+        position: relative;
+        width: 26px;
+        height: 26px;
+        overflow: hidden;
+        margin-top: 2rem;
+    }
+    
+    .menu__burger::before,
+    .menu__burger::after,
+    .menu__burger span {
+        content: '';
+        position: absolute;
+        width: 200%;
+        height: 2px;
+        background: #fff;
+        transition: 0.2s;
+    }
+    
+    .menu__burger span {
+        top: 50%;
+        margin-top: -1px;
+    }
+    
+    .menu__burger::after {
+        bottom: 0;
+    }
+    
+    .menu__burger_opened span {
+        opacity: 0;
+    }
+    
+    .menu__burger_opened {
+        background: rgba(0, 0, 0, 0.9);
+        padding: .5rem;
+        margin: -.5rem -0.8rem 0px;
+    }
+    .block1__nav_closed {
+        transform: translateX(-130%);
+    }
+    /* Второй блок Услуги */
+
+    .block2__card {
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .block2__card1 {
+        margin-bottom: 2rem;
+        width: 23.6rem;
+        height: 23.6rem;
+        border-radius: 4rem;
+    }
+
+    .block2__card2 {
+        margin-bottom: 2rem;
+        width: 23.6rem;
+        height: 23.6rem;
+        border-radius: 4rem;
+    }
+
+    .block2__card3 {
+        margin-bottom: 2rem;
+        width: 23.6rem;
+        height: 23.6rem;
+        border-radius: 4rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+
+        line-height: 2.5rem;
+
+    }
+
+    .block2__card1-h3 {
+        padding-top: 8rem;
+
+    }
+
+    .block2__card2-h3 {
+        padding-top: 8rem;
+
+    }
+
+    .block2__card3-h3 {
+        padding-top: 8rem;
+
+    }
+
+    /* Третий блок Мои преимущества */
+
+    .block3__container-photos {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 1.2rem;
+        grid-template-areas:
+            "photo1"
+            "text1"
+            "photo2"
+            "text2"
+            "photo3"
+            "text3"
+            "photo4";
+
+    }
+
+    .block3__picture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block3__picture-text {
+        padding-bottom: 2rem;
+    }
+
+    .block3__container-text {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+
+
+    .block4__biografiya {
+        display: block;
+    }
+
+    .block4__button {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .block6__h2 {
+        padding-bottom: 1.2rem;
+    }
+
+
+    .block6__form {
+        padding-bottom: 1.2rem;
+    }
+
+    .block-footer__columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        row-gap: 1.7rem;
+        grid-template-areas:
+            "column1 column1 column1"
+            "column4 column2 column2"
+            "column3 column3 column3"
+        ;
+    }
+
+    .block-footer__column4 {
+        justify-self: start;
+    }
+
+    h5 {
+        font-size: 2rem;
+    }
+
+    .block-footer__appointment {
+        padding-bottom: 2rem;
+    }
+
+    .block-footer__column1-block p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+
+    }
+
+    .block-footer__column2 li {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .block-footer__column3-block p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .block-footer__buttons {
+        flex-direction: column;
+    }
+
+    .block-footer__button1 {
+        margin-bottom: 2rem;
+    }
+
+
+}

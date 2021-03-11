@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Врач реабилитолог</title>
     <link rel="icon" type="image" href="images\logo.png">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css\reset.css">
     <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="fonts\stylesheet.css">
+    <link rel="stylesheet" href="css\media.css">
 </head>
 
 <body>
@@ -35,25 +36,26 @@
                         </a>
                     </div>
                     <div class="block1__nav">
-                        <nav>
+                        <div class="menu__burger"><span></span></div>
+                        <nav class="block1__nav_closed">
                             <ul>
                                 <li>
-                                    <a class="no-underline color-darkblue" href="">Главная</a>
+                                    <a class="no-underline color-darkblue" href="#main">Главная</a>
                                 </li>
                                 <li>
-                                    <a class="no-underline color-darkblue" href="">Услуги</a>
+                                    <a class="no-underline color-darkblue" href="#services">Услуги</a>
                                 </li>
                                 <li>
-                                    <a class="no-underline color-darkblue" href="">Обо мне</a>
+                                    <a class="no-underline color-darkblue" href="#about_me">Обо мне</a>
                                 </li>
                                 <li>
-                                    <a class="no-underline color-darkblue" href="">Отзывы</a>
+                                    <a class="no-underline color-darkblue" href="#feedback">Отзывы</a>
                                 </li>
                                 <li>
-                                    <a class="no-underline color-darkblue" href="">Акции</a>
+                                    <a class="no-underline color-darkblue" href="#sale">Акции</a>
                                 </li>
                                 <li>
-                                    <a class="no-underline color-darkblue" href="">Контакты</a>
+                                    <a class="no-underline color-darkblue" href="#contacts">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
@@ -74,12 +76,12 @@
                         <br> Восстановление рук после травм и операций.
                     </p>
                 </div>
-                <div>
-                    <button class="block1__button">Записаться на прием</button>
+                <div class="block1__button">
+                    <button class="block1__button-style">Записаться на прием</button>
                 </div>
             </div>
             <div class="block1__photo">
-                <img class="block1__photo" src="images\photo.png" alt="">
+                <img class="block1__photo" src="images\photo.png" alt="Здесь должна быть фотография">
             </div>
         </div>
     </div>
@@ -88,7 +90,7 @@
 
     <div class="block2">
         <div class="block2__container">
-            <div class="block2__services">
+            <div class="block2__services" id="services">
                 <h2>Услуги</h2>
                 <p class="block2__services-p">
                     Кистевая терапия - это наука и искусство лечения травм и состояний верхних конечностей. Применяемые
@@ -255,7 +257,7 @@
     <!-- Четвертый блок Обо мне -->
     <div class="block4">
         <div class="block4__container">
-            <h2>Обо мне</h2>
+            <h2 id="about_me">Обо мне</h2>
             <div class="block4__biografiya">
                 <div class="block4__column1">
                     <div class="block4__photo">
@@ -314,16 +316,16 @@
                         Март 2021г.
                         – Участие в Esser Masterclass «Hand Therapy» Москва.
                     </p>
-
                 </div>
-
             </div>
+
         </div>
+    </div>
     </div>
 
     <!-- Пятый блок Отзывы -->
-    <div class="block5">
-        <div class="block5__container">
+    <!-- <div class="block5">
+        <div class="block5__container id"feedback">
             <h2>Отзывы</h2>
             <div class="block5__reviews">
                 <div class="block5__comment1">
@@ -396,10 +398,10 @@
                 <button class="block5__button-give-feedback">Оставить отзыв</button>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Блок Подарок и акций -->
-    <div class="block6">
+    <div class="block6" id="sale">
         <div class="block6__container">
             <!-- <img src="images\Present.png" alt=""> -->
             <h2 class="block6__h2">Хочешь получить подарок?</h2>
@@ -419,7 +421,7 @@
 
     <!-- Блок Футтер -->
     <footer class="block-footer">
-        <div class="block-footer__container">
+        <div class="block-footer__container" id="contacts">
             <h2 class="block-footer__h2">Контакты</h2>
 
             <div class="block-footer__columns">
