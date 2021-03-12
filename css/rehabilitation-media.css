@@ -1,0 +1,55 @@
+/* iPads (вертикальная и горизонтальная) ----------- */
+@media screen and (max-width: 1366px) {
+    /* Первый блок  */
+    .rehabilitation__block1__container{
+        margin: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .rehabilitation__block1__button {
+        margin: auto;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        text-align: center;
+    }
+
+    /* Второй блок */
+
+    .rehabilitation__block2{
+        margin: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Iphone X ----------- */
+@media screen and (max-width: 675px) {
+
+/* Первый блок  */
+
+.rehabilitation__block1__main{
+    flex-direction: column;
+}
+
+.rehabilitation__block1__main-photo{
+padding-top: 1.2rem;
+}
+
+.rehabilitation__block1__button {
+
+    padding-top: 1.2rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+/* Второй блок */
+
+.rehabilitation__block2__table{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+    
+}

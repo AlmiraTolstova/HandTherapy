@@ -1,0 +1,179 @@
+*Начальная инициализация*/ html {
+    box-sizing: border-box;
+    /* font-size: 1.0417vw; */
+    font-size: 20px;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*Шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+input,
+textarea,
+select {
+    font-family: "Roboto";
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+
+}
+
+/* Первый блок */
+.rehabilitation__block1{
+    position: relative;
+
+}
+
+.rehabilitation__block1__container{
+    background-color: #375B82;
+  
+}
+
+.rehabilitation__block1__main{
+    max-width: 73.2rem;
+    margin: auto;
+    position: relative;
+    /* background-color: #375B82; */
+    display: flex;
+flex-direction:row;
+padding-top: 2.4rem;
+
+}
+
+.rehabilitation__block1__main-info{
+width: 36rem;
+padding-right: 1.2rem;
+color: #F0F7FB;
+
+}
+
+.rehabilitation__block1__main-info h2{
+    margin-bottom: 2.4rem;
+    color: #F0F7FB;
+}
+
+.rehabilitation__block1__button{
+    max-width: 73.2rem;
+    margin: auto;
+    margin-top: -5rem;
+    padding-bottom: 10rem;
+}
+
+/* Второй блок */
+
+.rehabilitation__block2{
+    background-color:#F0F7FB ;
+    /* position: relative; */
+}
+
+.rehabilitation__block2__table{
+    max-width: 73.2rem;
+    margin: auto;
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "photo1 card1"
+    "photo2 card2"
+    "photo3 card3"
+    "photo4 card4";
+    row-gap: 2.4rem;
+    column-gap: 1.2rem;
+    padding-bottom: 4.8rem;
+}
+
+.rehabilitation__block2__table-photo1{
+    grid-area: photo1;
+}
+
+.rehabilitation__block2__table-card1{
+    grid-area: card1;
+    width: 23.6rem;
+    justify-self: center;
+}
+
+.rehabilitation__block2__table-photo2{
+    grid-area: photo2;
+}
+
+.rehabilitation__block2__table-card2{
+    grid-area: card2;
+    width: 23.6rem;
+    justify-self: center;
+}
+
+.rehabilitation__block2__table-photo3{
+    grid-area: photo3;
+}
+
+.rehabilitation__block2__table-card3{
+    grid-area: card3;
+    width: 23.6rem;
+    justify-self: center;
+}
+
+.rehabilitation__block2__table-photo4{
+    grid-area: photo4;
+}
+
+.rehabilitation__block2__table-card4{
+    grid-area: card4;
+    width: 23.6rem;
+    justify-self: center;
+}
+
+.rehabilitation__block2__table p{
+    color: transparent;
+    font-family: 'Roboto';
+font-size: 144px;
+font-style: normal;
+font-weight: 700;
+line-height: 169px;
+letter-spacing: 0em;
+text-align: center;
+/* border: 2px solid #5BBCAE; */
+-webkit-text-stroke: 2px #5BBCAE;
+
+}
+
+.rehabilitation__block2__table h2{
+    font-family: 'Roboto';
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.rehabilitation__block2__button{
+    max-width: 73.2rem;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.rehabilitation__block6 {
+    position: relative;
+    height: 100%;
+    background: linear-gradient(#F0F7FB 50%, #375B82 50%);
+}
